@@ -68,4 +68,10 @@
         <!-- Input devices -->
         <device name="SND_DEVICE_IN_VOICE_REC_MIC" alias="handset-mic-asr" />
     </device_names>
+
+    <config_params>
+        <!-- If sound card name is not known, remove this entry -->
+        <param key="snd_card_name" value="msm8974-taiko-liquid-snd-card"/> -->
+        <param key="input_mic_max_count" value="2"/>
+    </config_params>
 </audio_platform_info>
